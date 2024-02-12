@@ -1,0 +1,52 @@
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    text-align: center;
+}
+
+table {
+    max-width: 100%;
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+
+thead {
+    background-color: #f2f2f2;
+}
+
+th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+td {
+    /* Set a maximum width for the td */
+    max-width: 200px; /* Adjust the value according to your needs */
+    /* Allow long words to be broken and wrap onto the next line */
+    word-wrap: break-word;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.btn {
+    position: fixed;  /* Fija la posición del botón */
+    top: 10px;        /* Distancia desde la parte superior */
+    left: 10px;       /* Distancia desde la izquierda */
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #007BFF;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
